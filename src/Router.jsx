@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import AboutTheTeam from '../src/components/AboutTheTeam';
-import FindLove from '../src/components/FindLove';
-import SuccessStory from '../src/components/SuccessStory';
-import Login from '../src/components/Login';
+import AboutTheTeam from './Component/AboutTheTeam';
+import FindLove from './Component/FindLove';
+import SuccessStory from './Component/SuccessStory';
+import Login from './Component/Login';
 
 export default function Router() {
     return (
